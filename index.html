@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .experience-item h3 {
+            color: #764ba2;
+            margin-bottom: 5px;
+        }
+
+        .experience-item .date {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .skill-tag {
+            background: #f0f0f0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-links a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .contact-links a:hover {
+            color: #764ba2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>NYU Student | Entertainment Industry | International Relations</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a senior at NYU studying International Relations and Art History with a minor in the Business of Entertainment, Media, and Technology. 
+                I'm passionate about the entertainment industry and aspire to work in talent representation, with particular interests in music, comedy, and acting talent.
+            </p>
+            <p style="margin-top: 15px;">
+                Currently, I'm working as a Publicity Intern at The Oriel Company, where I support press campaigns for high-profile music clients. 
+                I also write album reviews, create content about film, and work on DJ sets in my free time.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <h3>Publicity Intern</h3>
+                <p class="date">The Oriel Company | Present</p>
+                <p>Supporting press campaigns for music clients including Maroon 5, Phoebe Bridgers, The Killers, Questlove, and Shaboozey.</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Intern</h3>
+                <p class="date">Untitled Entertainment | Previous</p>
+                <p>Gained experience in talent management and representation.</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Intern</h3>
+                <p class="date">Edelman Smithfield & Joele Frank | Previous</p>
+                <p>Developed skills in strategic communications and financial PR.</p>
+            </div>
+        </section>
+
+        <section id="involvement">
+            <h2>Leadership & Involvement</h2>
+            <p><strong>Communications Director</strong> - NYU Dean's Service Honors Corps</p>
+            <p style="margin-top: 10px;"><strong>Member</strong> - Presidential Honors Program</p>
+            
+            <div class="skills">
+                <span class="skill-tag">Entertainment Publicity</span>
+                <span class="skill-tag">Talent Management</span>
+                <span class="skill-tag">Strategic Communications</span>
+                <span class="skill-tag">Music Industry</span>
+                <span class="skill-tag">Art History</span>
+                <span class="skill-tag">International Relations</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I'd love to connect! Reach out through any of these channels:</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@nyu.edu">Email</a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+                <a href="https://letterboxd.com/yourprofile" target="_blank">Letterboxd</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
